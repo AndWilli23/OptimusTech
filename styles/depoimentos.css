@@ -1,0 +1,41 @@
+.container__depoimento {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--fundo-secundaria);
+    margin: 0 4.5em;
+    margin-bottom: 2em;
+    border-radius: 16px;
+}
+
+.depoimentos {
+    padding: 3em 3em; 
+}
+
+.depoimentos__titulo-vermelho {
+    color: var(--vermelho-botao);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.depoimentos__titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.depoimentos__imagem {
+    margin-bottom: 1em ;
+}
+
+.depoimentos__dev {
+    font-weight: 500;
+    color: var(--cor-titulo);
+    margin-bottom: 0.5em;
+}
+
+.depoimentos__texto {
+    color: var(--cor-texto);
+    font-size: 14px ;
+}

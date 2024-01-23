@@ -1,0 +1,31 @@
+.container__metas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 7em;
+}
+
+.metas__descricao {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+}
+
+.metas__meta {
+    color: var(--vermelho-botao);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metas__titulo {
+    color: var(--cor-titulo);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.metas__texto {
+    color: var(--cor-texto);
+    
+}
